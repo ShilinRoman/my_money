@@ -14,20 +14,23 @@ SOURCES += \
     database.cpp \
     main.cpp \
     mainwindow.cpp \
-    option.cpp
+    option.cpp \
+    transaction.cpp
 
 HEADERS += \
     account.h \
     category.h \
     database.h \
     mainwindow.h \
-    option.h
+    option.h \
+    transaction.h
 
 FORMS += \
     account.ui \
     category.ui \
     mainwindow.ui \
-    option.ui
+    option.ui \
+    transaction.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
