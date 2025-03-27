@@ -10,15 +10,18 @@ CONFIG += c++17
 
 SOURCES += \
     account.cpp \
+    category.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     account.h \
+    category.h \
     mainwindow.h
 
 FORMS += \
     account.ui \
+    category.ui \
     mainwindow.ui
 
 # Default rules for deployment.
