@@ -12,17 +12,20 @@ SOURCES += \
     account.cpp \
     category.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    option.cpp
 
 HEADERS += \
     account.h \
     category.h \
-    mainwindow.h
+    mainwindow.h \
+    option.h
 
 FORMS += \
     account.ui \
     category.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    option.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
