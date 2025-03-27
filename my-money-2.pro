@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     account.cpp \
     category.cpp \
+    database.cpp \
     main.cpp \
     mainwindow.cpp \
     option.cpp
@@ -18,6 +19,7 @@ SOURCES += \
 HEADERS += \
     account.h \
     category.h \
+    database.h \
     mainwindow.h \
     option.h
 
